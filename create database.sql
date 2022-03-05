@@ -2,8 +2,6 @@ create database charactersheet;
 
 use charactersheet;
 
-CREATE TABLE 'ez3wqn9ik8wgimqu.player'
-
 CREATE TABLE `player` (
     `player_id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
     `username` varchar(255) NOT NULL,
